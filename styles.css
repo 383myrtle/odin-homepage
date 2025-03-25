@@ -12,6 +12,7 @@
 
 header {
   position: relative;
+  display: flex;
 }
 
 main {
@@ -23,3 +24,20 @@ footer {
   background-color: darkgray;
 }
 
+.profile-photo {
+  position: relative;
+}
+
+.profile-photo img {
+  height: 450px;
+}
+
+.profile-photo h1 {
+  position: absolute;
+  width: 100%;
+  bottom: 5px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 5px;
+  text-align: center;
+}
