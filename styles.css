@@ -50,7 +50,7 @@ footer {
     flex-direction: column;
     gap: 1rem;
     justify-content: space-between;
-    box-shadow: 1px 3px 5px 1px lightgray;
+    box-shadow: 1px 3px 5px 1px rgb(29, 71, 88);
 }
 
 .icon-small {
