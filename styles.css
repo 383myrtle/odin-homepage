@@ -154,3 +154,10 @@ h2 {
 .footer-img {
   height: 400px;
 }
+
+@media (max-width: 900px){
+  .footer-img{
+    width: 250px;
+    object-fit: cover;
+  }
+}
