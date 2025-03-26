@@ -85,6 +85,9 @@ a {
 .social {
   display: flex;
   gap: 1rem;
+}
+
+header .social {
   justify-content: end;
 }
 
