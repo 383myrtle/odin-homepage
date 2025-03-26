@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap");
 
 * {
   margin: 0;
@@ -8,9 +8,9 @@
 }
 
 body {
-    --accent-colour: rgb(48, 117, 144);
-    --accent-colour-dark: rgb(29, 71, 88);
-    font-size: 18px;
+  --accent-colour: rgb(48, 117, 144);
+  --accent-colour-dark: rgb(29, 71, 88);
+  font-size: 18px;
 }
 
 .container {
@@ -24,6 +24,7 @@ header {
   display: flex;
   align-items: center;
   padding: 2rem 4rem;
+  overflow: hidden;
 }
 
 main {
@@ -34,7 +35,7 @@ main {
 footer {
   background-color: var(--accent-colour);
   display: flex;
-  padding: 2rem 4rem;;
+  padding: 2rem 4rem;
   justify-content: space-between;
 }
 
@@ -67,8 +68,8 @@ footer {
 }
 
 .about p {
-    line-height: 1.5rem;
-    font-size: 1.1rem;
+  line-height: 1.5rem;
+  font-size: 1.1rem;
 }
 
 .icon-small {
@@ -99,38 +100,38 @@ a {
 }
 
 h2 {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .project-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
 }
 
 .project {
-    width: 300px;
-    height: 350px;
-    background-color: beige;
-    border-radius: 7px;
+  width: 300px;
+  height: 350px;
+  background-color: beige;
+  border-radius: 7px;
 }
 
 .project-thumbnail {
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
-    width: 100%;
-    height: 175px;
-    object-fit: cover;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  width: 100%;
+  height: 175px;
+  object-fit: cover;
 }
 
 .project-header {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .project-header,
 .project-description {
-    padding: 0.2rem 1rem;
+  padding: 0.2rem 1rem;
 }
 
 .contact {
