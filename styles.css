@@ -161,3 +161,34 @@ h2 {
     object-fit: cover;
   }
 }
+
+@media (max-width: 650px){
+  header{
+    flex-direction: column;
+  }
+  
+  header .background {
+    transform-origin: top left;
+    transform: rotate(70deg) translate(-10%, -25%);
+  }
+
+  .about {
+    box-shadow: none;
+    align-items: center;
+  }
+
+  footer{
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .contact {
+    gap: 1.5rem;
+    padding: 2rem 4rem;
+  }
+  
+  .footer-img {
+    transform-origin: top;
+    width: 100%;
+  }
+}
