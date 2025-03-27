@@ -1,6 +1,18 @@
 # odin-homepage
 Homepage project from the Odin Project course
 
+## Description
+This project mostly deals with creating a responsive design to accommodate for different screens and devices.
+
+## Features
+- Fully responsive layout that adapts to various screen sizes and devices.
+- Flexible grid system for displaying projects dynamically.
+- Media queries to optimize the design for mobile, tablet, and desktop views.
+- Scalable typography and images for better readability and visual appeal on different devices.
+- Mobile-friendly navigation and layout adjustments for smaller screens.
+- Consistent use of CSS variables for easy theming and color adjustments.
+- Adaptive image handling with `srcset` for high-resolution displays.
+
 ## Credits
 
 - [19th century portrait of Qin Shi Huang](https://commons.wikimedia.org/wiki/File:QinShiHuang19century.jpg) by Unknown author via Wikimedia Commons (Public Domain).
